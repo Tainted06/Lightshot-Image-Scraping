@@ -9,6 +9,7 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using System.Threading;
 using System.Net;
+using System.Windows.Forms;
 
 namespace Prnt_Scr_Scraper
 {
@@ -27,12 +28,66 @@ namespace Prnt_Scr_Scraper
                 }
             }
 
-            /*Console.ForegroundColor = ConsoleColor.Blue;
-            Console.Write("Folder to store scraped images:");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("Do you agree to the following?" +
+                "\n" +
+                "\n" +
+                "- This program is purely for educational purposes" +
+                "\n" +
+                "- You will not use this program for any malicious purposes" +
+                "\n" +
+                "- Any damage caused by this program is not the creators responsibility" +
+                "\n" +
+                "- These are random images taken by people, because of this there may be gore, NSFW, obscene images, and more" +
+                "\n" +
+                "- Only continue if you don't mind seeing images as such" +
+                "\n" +
+                "\n" +
+                "DO NOT CONTINUE USING THIS PROGRAM IF YOU DO NOT AGREE WITH THE ABOVE" +
+                "\n" +
+                "Any damage caused by the use of this application is in no way the responsibility of the creator." +
+                "\n" +
+                "\n" +
+                "\n" +
+                "\n");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write("If you agree, please type the letter y" +
+                "\n");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("If you don't agree, please type the letter n" +
+                "\n" +
+                "\n");
             Console.ForegroundColor = ConsoleColor.White;
-            string folder = Console.ReadLine();*/
-            string folder = @"Z:\Projects\img\take2\";
-
+            Console.Write("Agree? (y/n): ");
+            string response = Console.ReadLine();
+            if (response == "y")
+            {
+                Console.Clear();
+            }
+            if (response == "n")
+            {
+                Console.Clear();
+                Console.Write("You need to agree to the terms before using the application!");
+                Thread.Sleep(-1);
+            }
+            if (response != "y")
+            {
+                if (response != "n")
+                {
+                    Console.Clear();
+                    Console.Write("Please reopen the application and type ONLY n OR y");
+                    Thread.Sleep(-1);
+                }
+            }
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write("Folder to store scraped images (Make sure it ends with \\ ): ");
+            Console.ForegroundColor = ConsoleColor.White;
+            Thread.Sleep(200);
+            string folder = Console.ReadLine();
+            if (!Directory.Exists(folder))
+            {
+                Directory.CreateDirectory(folder);
+            }
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write("Amount of images to scrape:");
             Console.ForegroundColor = ConsoleColor.White;
@@ -52,14 +107,12 @@ namespace Prnt_Scr_Scraper
                 int c6 = random.Next(letter.Count);
                 string link = "https://prnt.sc/" + number[c1] + number[c2] + letter[c3] + letter[c4] + letter[c5] + letter[c6];
                 IWebDriver driver = new ChromeDriver(AppDomain.CurrentDomain.BaseDirectory);
-                Console.WriteLine(link);
                 driver.Navigate().GoToUrl(link);
                 try
                 {
-                    string filename = link.Replace("https://prnt.sc/", "");
+                    string filename = link.Replace("https://prnt.sc/", "\n");
                     var element = driver.FindElement(By.Id("screenshot-image"));
                     string imageSrc = element.GetAttribute("src");
-                    Console.WriteLine(imageSrc);
                     string extension = Path.GetExtension(imageSrc);
                     using (var client = new WebClient())
                     {
