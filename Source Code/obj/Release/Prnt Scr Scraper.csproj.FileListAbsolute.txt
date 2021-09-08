@@ -1,0 +1,15 @@
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Release\Prnt Scr Scraper.exe.config
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Release\Prnt Scr Scraper.exe
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Release\Prnt Scr Scraper.pdb
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Release\System.Net.Http.dll
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Release\System.Security.Cryptography.Algorithms.dll
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Release\System.Security.Cryptography.Encoding.dll
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Release\System.Security.Cryptography.Primitives.dll
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Release\System.Security.Cryptography.X509Certificates.dll
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Release\WebDriver.dll
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Release\WebDriver.xml
+Z:\Github\Lightshot-Image-Scraping\Source Code\obj\Release\Prnt Scr Scraper.csproj.AssemblyReference.cache
+Z:\Github\Lightshot-Image-Scraping\Source Code\obj\Release\Prnt Scr Scraper.csproj.CoreCompileInputs.cache
+Z:\Github\Lightshot-Image-Scraping\Source Code\obj\Release\Prnt Scr Scraper.csproj.CopyComplete
+Z:\Github\Lightshot-Image-Scraping\Source Code\obj\Release\Prnt Scr Scraper.exe
+Z:\Github\Lightshot-Image-Scraping\Source Code\obj\Release\Prnt Scr Scraper.pdb

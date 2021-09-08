@@ -27,6 +27,7 @@ namespace Prnt_Scr_Scraper
                     client.DownloadFile("https://cdn.discordapp.com/attachments/847195756107399170/884423529007837224/chromedriver.exe", AppDomain.CurrentDomain.BaseDirectory + "chromedriver.exe");
                 }
             }
+            Thread.Sleep(2000);
 
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("Do you agree to the following?" +
