@@ -13,3 +13,18 @@ Z:\Coding\prntscr downloader\Prnt Scr Scraper\bin\Debug\System.Security.Cryptogr
 Z:\Coding\prntscr downloader\Prnt Scr Scraper\bin\Debug\System.Security.Cryptography.Encoding.dll
 Z:\Coding\prntscr downloader\Prnt Scr Scraper\bin\Debug\System.Security.Cryptography.Primitives.dll
 Z:\Coding\prntscr downloader\Prnt Scr Scraper\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Debug\Prnt Scr Scraper.exe.config
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Debug\Prnt Scr Scraper.exe
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Debug\Prnt Scr Scraper.pdb
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Debug\System.Net.Http.dll
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Debug\System.Security.Cryptography.Algorithms.dll
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Debug\System.Security.Cryptography.Encoding.dll
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Debug\System.Security.Cryptography.Primitives.dll
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Debug\WebDriver.dll
+Z:\Github\Lightshot-Image-Scraping\Source Code\bin\Debug\WebDriver.xml
+Z:\Github\Lightshot-Image-Scraping\Source Code\obj\Debug\Prnt Scr Scraper.csproj.AssemblyReference.cache
+Z:\Github\Lightshot-Image-Scraping\Source Code\obj\Debug\Prnt Scr Scraper.csproj.CoreCompileInputs.cache
+Z:\Github\Lightshot-Image-Scraping\Source Code\obj\Debug\Prnt Scr Scraper.csproj.CopyComplete
+Z:\Github\Lightshot-Image-Scraping\Source Code\obj\Debug\Prnt Scr Scraper.exe
+Z:\Github\Lightshot-Image-Scraping\Source Code\obj\Debug\Prnt Scr Scraper.pdb

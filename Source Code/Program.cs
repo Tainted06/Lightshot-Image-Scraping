@@ -16,7 +16,7 @@ namespace Prnt_Scr_Scraper
     {
         static void Main(string[] args)
         {
-            Console.Title = "Mass Image Downloader (Needs chrome to be installed)";
+            Console.Title = "Mass Image Downloader (Needs chrome to be installed) | By: Tainted | https://github.com/Tainted06/Lightshot-Image-Scraping";
             if (File.Exists(AppDomain.CurrentDomain.BaseDirectory + "chromedriver.exe"))
                 { }
             else
